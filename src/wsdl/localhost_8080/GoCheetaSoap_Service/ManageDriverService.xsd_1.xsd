@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://gocheetasoap_service.mycompany.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://gocheetasoap_service.mycompany.com/">
+
+<xs:element name="AddDriver" type="tns:AddDriver"/>
+
+<xs:element name="AddDriverResponse" type="tns:AddDriverResponse"/>
+
+<xs:element name="Delete" type="tns:Delete"/>
+
+<xs:element name="DeleteResponse" type="tns:DeleteResponse"/>
+
+<xs:element name="loginDriver" type="tns:loginDriver"/>
+
+<xs:element name="loginDriverResponse" type="tns:loginDriverResponse"/>
+
+<xs:element name="update" type="tns:update"/>
+
+<xs:element name="updateResponse" type="tns:updateResponse"/>
+
+<xs:complexType name="AddDriver">
+<xs:sequence>
+<xs:element name="managedriver" type="tns:manageDriver" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="manageDriver">
+<xs:sequence>
+<xs:element name="branch" type="xs:string" minOccurs="0"/>
+<xs:element name="driverName" type="xs:string" minOccurs="0"/>
+<xs:element name="number" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+<xs:element name="registerNumber" type="xs:string" minOccurs="0"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="validUser" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AddDriverResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="update">
+<xs:sequence>
+<xs:element name="managedriver" type="tns:manageDriver" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginDriver">
+<xs:sequence>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginDriverResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:manageDriver" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Delete">
+<xs:sequence>
+<xs:element name="managedriver" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DeleteResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

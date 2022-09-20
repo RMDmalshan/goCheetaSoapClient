@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/TestService?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/TestService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/TestService?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/TestService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/Testone?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/Testone.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/Testone?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/Testone.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/CustomerService?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/CustomerService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/CustomerService?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/CustomerService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/AdminService?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/AdminService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/AdminService?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/AdminService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/ManageVehicleService?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/ManageVehicleService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/ManageVehicleService?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/ManageVehicleService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/FeedBackService?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/FeedBackService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/FeedBackService?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/FeedBackService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/ManageDriverService?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/ManageDriverService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/ManageDriverService?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/ManageDriverService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/CustomerBookingService?wsdl" uri="wsdl/localhost_8080/GoCheetaSoap_Service/CustomerBookingService.wsdl"/>
+    <system systemId="http://localhost:8080/GoCheetaSoap_Service/CustomerBookingService?xsd=1" uri="wsdl/localhost_8080/GoCheetaSoap_Service/CustomerBookingService.xsd_1.xsd"/>
+</catalog>
